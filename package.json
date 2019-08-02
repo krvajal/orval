@@ -1,0 +1,28 @@
+{
+	"name": "react-with-twig-loader",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-core": "6.26.0",
+		"babel-loader": "7.1.2",
+		"babel-plugin-jsx-pragmatic": "^1.0.2",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"melody-loader": "^1.2.1",
+		"melody-plugin-jsx": "^1.2.1",
+		"melody-traverse": "^1.2.1",
+		"webpack": "^4.39.1",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.7.2"
+	},
+	"scripts": {
+		"build": "webpack --config webpack.config.js",
+		"start": "webpack-dev-server"
+	},
+	"dependencies": {
+		"melody-parser": "^1.2.1",
+		"melody-types": "^1.2.1",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	}
+}
